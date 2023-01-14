@@ -30,8 +30,9 @@ async fn get_json(Path(id): Path<String>) -> impl IntoResponse {
         Json(json!(
             {
                 "id": user_guid,
-                "message": "Test message",
-                "assigned": "user@example.com"
+                "message": "Just do it!",
+                "assigned": "user@example.com",
+                "priority": "A"
             }
         )),
     )

@@ -17,5 +17,5 @@ $ cargo run
 
 ```bash
 $ curl http://127.0.0.1:3000/v1/todos/{your_guid}
-> {"assigned":"user@example.com","id":"{your_guid}","message":"Test message"}
+> {"assigned":"user@example.com","id":"{your_guid}","message":"Test message","priority":"A"}
 ```
