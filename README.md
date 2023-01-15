@@ -9,8 +9,8 @@ git clone git@github.com:gjhonic/lab12.git
 **launch**
 
 ```bash
-$ cd lab12
-$ cargo run
+cd lab12
+cargo run
 ```
 
 **Test**
